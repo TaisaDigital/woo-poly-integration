@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.5.2 (Taisa Digital maintained fork)
+
+* Harden related variation SQL query against SQL injection.
+* Secure variation deletion AJAX handling with nonce, capability, and input validation.
+* Prevent PHP 8 NumberFormatter type errors for non-numeric values.
+* Based on upstream GitHub 1.5.1; original MIT license and copyright notices retained.
+
 ###  1.5.1
 * [fixes #545 keep fields unlocked if products does not exist in default language props mrleemon](https://github.com/hyyan/woo-poly-integration/issues/545)
 * [fixes #549 Quick edit Product synchronisation issues](https://github.com/hyyan/woo-poly-integration/issues/549)
