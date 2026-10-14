@@ -1,15 +1,17 @@
-=== Hyyan WooCommerce Polylang Integration===
+=== Hyyan WooCommerce Polylang Integration (Taisa Digital fork) ===
 Contributors: hyyan, jonathanmoorebcsorg
 Tags: cms, woocommerce, multilingual, polylang, bilingual, international, language, localization, multilanguage, multilingual, translate, translation
 Requires at least: 5.4
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 Tested Up To: 5.7.1
 WC requires at least: 4.0.0
 WC tested up to: 5.3.0
 Requires PHP: 7.0
 License: MIT
-License URI: https://github.com/hyyan/woo-poly-integration/blob/master/LICENSE
+License URI: https://github.com/TaisaDigital/woo-poly-integration/blob/master/LICENSE
  
+Unofficial maintained fork by Taisa Digital, based on upstream GitHub 1.5.1. Original copyright notices and MIT license are retained. See the GitHub README for maintenance details and fixes.
+
 Integrates Woocommerce With Polylang 
 
 == Description ==
