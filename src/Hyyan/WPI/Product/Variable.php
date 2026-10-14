@@ -308,10 +308,16 @@ class Variable
      */
     public function removeVariations()
     {
-        if (isset($_POST['variation_ids'])) {
-            $IDS = (array) $_POST['variation_ids'];
+        check_ajax_referer('delete-variations', 'security');
 
-            foreach ($IDS as $ID) {
+        if (!current_user_can('edit_products') || !isset($_POST['variation_ids'])) {
+            wp_die(-1);
+        }
+
+        $IDS = array_map('absint', (array) wp_unslash($_POST['variation_ids']));
+
+        foreach ($IDS as $ID) {
+            if ('product_variation' === get_post_type($ID)) {
                 Variation::deleteRelatedVariation($ID);
             }
         }
