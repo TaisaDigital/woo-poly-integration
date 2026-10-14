@@ -1,16 +1,17 @@
 <?php
 
 /*
- * Plugin Name: Hyyan WooCommerce Polylang Integration
- * Plugin URI: https://github.com/hyyan/woo-poly-integration/
- * Description: Integrates Woocommerce with Polylang
- * Author: Hyyan Abo Fakher
- * Author URI: https://github.com/hyyan
+ * Plugin Name: Hyyan WooCommerce Polylang Integration (Taisa Digital fork)
+ * Plugin URI: https://github.com/TaisaDigital/woo-poly-integration/
+ * Description: Unofficial maintained fork with SQL injection hardening and a PHP 8 NumberFormatter fix.
+ * Author: Taisa - Raquel Garcia Arevalo
+ * Author URI: https://www.taisadigital.com
  * Text Domain: woo-poly-integration
  * Domain Path: /languages
- * GitHub Plugin URI: hyyan/woo-poly-integration
+ * GitHub Plugin URI: TaisaDigital/woo-poly-integration
+ * Update URI: https://github.com/TaisaDigital/woo-poly-integration
  * License: MIT License
- * Version: 1.5.1
+ * Version: 1.5.2
  * Requires At Least: 5.4
  * Tested Up To: 5.7.1
  * WC requires at least: 4.0.0
