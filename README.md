@@ -1,5 +1,21 @@
 # WordPress WooCommerce Polylang Integration
 
+## Taisa Digital maintained fork
+
+This is an unofficial maintained fork of [Hyyan's original plugin](https://github.com/hyyan/woo-poly-integration), based on upstream GitHub version 1.5.1. The original project is archived. This fork retains the original MIT license and copyright notices.
+
+Maintainer: [Taisa - Raquel Garcia Arevalo](https://www.taisadigital.com).
+
+### Fixes in 1.5.2
+
+- Hardened the related-variation database query with input validation and a prepared SQL statement.
+- Secured the WooCommerce variation deletion AJAX handler with nonce and capability checks, input normalization, and variation type validation.
+- Guarded locale number formatting against non-numeric values to avoid PHP 8 NumberFormatter::format() type errors.
+
+This is an independent fork and is not an official release of the original project or WordPress.org.
+
+---
+
 [![project status](http://www.repostatus.org/badges/latest/active.svg)](http://www.gitchecker.com/hyyan/woo-poly-integration)
 [![Latest Stable Version](https://poser.pugx.org/hyyan/woo-poly-integration/v/stable.svg)](https://packagist.org/packages/hyyan/woo-poly-integration)
 [![Wordpress plugin](http://img.shields.io/wordpress/plugin/v/woo-poly-integration.svg)](https://wordpress.org/plugins/woo-poly-integration/)
